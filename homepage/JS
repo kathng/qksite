@@ -1,0 +1,15 @@
+const slider = document.querySelector('.course-slider');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+let offset = 0;
+
+prevButton.addEventListener('click', () => {
+  offset += 320; // Card width + gap
+  slider.style.transform = `translateX(${offset}px)`;
+});
+
+nextButton.addEventListener('click', () => {
+  offset -= 320; // Card width + gap
+  slider.style.transform = `translateX(${offset}px)`;
+});
