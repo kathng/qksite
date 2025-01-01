@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name=viewport content="width=device-width, initial-scale=0">
+    <title>Quattron Kids</title>
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Import "Inter" font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo & Nav Bar -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="https://codehs.com/uploads/e1c511059620db61db23a07f9c5328eb" alt="QK Logo">
+        </div>
+        <nav>
+            
+            <a href="index.html" class="nav-item1">Home</a>
+            <a href="catalog.html" class="nav-item1">Course Catalog</a>
+            <a href="login.html" class="nav-item2">Login</a>
+        </nav>
+    </header>
+
+    <!-- Homepage/Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <br>
+            
+
+            <h1>Empowering Kids to <span class="highlighted-blue-text">Code</span>, <span class="highlighted-red-text">Create</span>, and <span class="highlighted-purple-text">Innovate</span>.</h1>
+            <br>
+            <p>Help your kid become a programmer and ignite their passion for technology through QuattronKid’s innovative and engaging tools and platform.</p>
+            <br>
+            <img src="https://codehs.com/uploads/c242e35855278767347ff5032d9d7816" alt="4 learning features">           
+        </div>
+        <div class="hero-image">
+            <img src="https://codehs.com/uploads/82ff619f53f79d6cbb71783de089bc09" alt="hero kids icon">
+        </div>
+    </section>
+
+    <center>
+        <a href="catalog.html" class = "get-started-btn">Get started today</a>
+    <br><br><br>
+    <img src="https://codehs.com/uploads/e3980081d8b3f370191c33a18b9c8a57">
+    </center>
+    <br>
+    
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat">
+            <h2>100</h2>
+            <p>current students</p>   
+        </div>
+        <img src = "https://codehs.com/uploads/ca9917cce3a63db975ac0014052c029a">
+        <div class="stat">
+            <h2>28</h2>
+            <p>experienced teachers</p>
+        </div>
+        <img src = "https://codehs.com/uploads/ca9917cce3a63db975ac0014052c029a">
+        <div class="stat">
+            <h2>530</h2>
+            <p>courses completed</p>
+        </div>
+        <img src = "https://codehs.com/uploads/ca9917cce3a63db975ac0014052c029a">
+        <div class="stat">
+            <h2>41</h2>
+            <p>5-star reviews</p>
+        </div>
+    </section>
+
+    <!-- Why it Works Section -->
+    <section class="why-it-works">
+        
+        <h1>Why Quattron Kids Works</h1>
+        <br>
+        <img src = "https://codehs.com/uploads/8d1bd3675fd379347cbc108e38b05a33" alt="why-it-works">
+    </section>
+    
+    <center>
+        <div class="testimonial-slider">
+          <div class="testimonial-title">
+            <h3>What Parents Are Saying</h3>
+          </div>
+          <div class="testimonials-container">
+            <div class="testimonial-card">
+              <p>"My kid is very happy to take the class"</p>
+              <span>- Jannatul F</span>
+            </div>
+            <div class="testimonial-card">
+              <p>"My son loved this class! The <br>teacher is very patient and helpful."</p>
+              <span>- MingMing S</span>
+            </div>
+            <div class="testimonial-card">
+              <p>"New review can be written in here."</p>
+              <span>- New user</span>  
+                </div>
+            <div class="testimonial-card">
+                <p>"New review can be written in here."</p>
+                <span>- New user</span>
+                </div>
+            <div class="testimonial-card">
+                <p>"New review can be written in here."</p>
+                <span>- New user</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </center>
+
+    <br><br>
+
+    <!-- Trusted by parents from... -->
+    <center>
+    <img src= "https://codehs.com/uploads/750bd0396f3b17f4e3abb1331087103f" alt="trusted-by">
+    <br><br>
+        
+    <!-- Featured Courses-->
+    <img src= "https://codehs.com/uploads/c3f44338f6d832b380c93a4b3a3dc2f0" alt="courses">
+    </center>
+    <!--<center><p>Course option slider here</p></center>-->
+    
+    <div class="course-carousel">
+    <div class="course-slider">
+    <!-- Scratch course -->
+    <!--<div class="course-card">-->
+    <!--  <img src="https://codehs.com/uploads/af8533e859f44e57b009b9c23a992e6c" alt="Intro to Coding with Scratch" />-->
+    <!--  <div class="course-overlay">-->
+    <!--    <h3>Intro to Coding with Scratch</h3>-->
+    <!--  </div>-->
+    <!--  <p>-->
+    <!--    A fun, visual way for beginners to learn coding by creating stories,-->
+    <!--    animations, and simple games.-->
+    <!--  </p>-->
+    <!--  <button>More</button>-->
+    <!--</div>-->
+    
+    <div class="course-card">
+      <img src="https://codehs.com/uploads/af8533e859f44e57b009b9c23a992e6c" alt="Intro to Coding with Scratch" />
+
+        <div class="course-overlay">
+        <h3>Intro to Coding with Scratch</h3>
+      </div>
+           <p>
+        A fun, visual way for beginners to learn coding by creating stories,
+        animations, and simple games.
+      </p> 
+      <center>
+      <button class="nav-item2" style="border-radius:30px">More</button>
+      </center>
+    </div>
+
+
+    <!-- Problem Solving -->
+    <div class="course-card">
+      <img src="https://codehs.com/uploads/3315d82d75fcdfac64b9898672fe8ab7" alt="Logical Thinking and Problem Solving" />
+      <div class="course-overlay">
+        <h3>Logical Thinking and Problem Solving</h3>
+      </div>
+      <p>
+        Learn to use logical thinking to solve problems in a programming setting
+        through fun exercises.
+      </p>
+      <center>
+      <button class="nav-item2" style="border-radius:30px">More</button>
+      </center>
+    </div>
+    
+        <!-- Web Dev -->
+    <div class="course-card">
+      <img src="https://s3-alpha-sig.figma.com/img/928c/2c2c/dc67a507253902630c28d4919917d32c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lFmDsCCxEQC9hVI9foQCa5M9nSRsM~faAyuqz4Ju~WdAriyEu9UUeFZVbpcdyNmmIkGqlgltLBTmKo3knENk3PzXp4-HSjH4ArGd7g6B9L445sLwSM9NhSxrFgD~Np~tATJ7X~ueBRfZbQVWtbsq99e4UMPFoi7BwAoUH~IpOuFPY0ujIoxiJgYU4s4QJcspPJwYOTHxFFn0OSEtuxfxkNLNJUu5Q5~bV4RCgC2LAEWRLSfmvimk8gt4cW6q6OTAePMczfKh06zpCV7njKidNFNEBX-B4lZOiNPvnW6FVmIcb02JGEm0jilE0phxQCA9Kn9qRU0rXGkh0gparhVNkg__" alt="Web Development 101" />
+      <div class="course-overlay">
+        <h3>Web Development 101</h3>
+      </div>
+      <p>
+        Create your own websites with HTML, CSS, and JavaScript, while learning key skills.
+      </p>
+      <center>
+      <button class="nav-item2" style="border-radius:30px">More</button>
+      </center>
+    </div>
+
+    <!-- Add more courses -->
+  </div>
+  <div class="carousel-controls">
+    <button class="prev"></button>
+    <button class="next"></button>
+  </div>
+</div>
+
+    
+    
+    <br><br> 
+    
+    
+    <!-- Newsletter signup-->
+    <div class="newsletter-section">
+      <div class="newsletter-content">
+        <div class="newsletter-icon">
+          <img src="https://codehs.com/uploads/dcf2533adfc1661845a01ee9293c2699" alt="Email Icon" />
+        </div>
+        <div class="newsletter-text">
+          <p>
+            Stay up to date with <strong>new courses and opportunities</strong> from
+            <span><br>Quattron Kids!</span>
+          </p>
+          <br>
+            <!-- is this a button or a form? 
+            right now it links to catalog but will add actual link later-->
+            <a href="catalog.html" class = "newsletter-btn">Enter your email here to join our newsletter</a>
+    
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer (goes in every subpage)-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="https://codehs.com/uploads/c0d7ea978f1de52ac51f15e58e4fb636" alt="Quattron Kids Logo" />
+        </div>
+        <ul class="footer-links">
+        <!--don't have about or contact page in Figma yet-->
+          <li>About</li>
+          <li>Contact</li>
+          <li><a href="catalog.html" style="color:black">Courses</a></li>
+          <li><a href="login.html" style="color:black">Login</a></li>
+        </ul>
+
+        <div class="footer-socials">
+        
+          <img src="https://codehs.com/uploads/a742bbe2fb6a07808fb00b6e6da9f1c7" alt="Facebook" />
+          <img src="https://codehs.com/uploads/7454e70c858a29b1e6bf76b274b7dde2" alt="Instagram" />
+            <a href="https://www.linkedin.com/company/quattronkids" target="blank">
+          <img src="https://codehs.com/uploads/753bd8fa81586afde8b4c372a00b1575" alt= "Linkedin icon">
+        </div>
+        <p class="footer-copyright">Copyright QuattronKids 2025©</p>
+      </div>
+    </footer>
+
+</body>
+</html>
